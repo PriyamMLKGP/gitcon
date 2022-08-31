@@ -11,7 +11,7 @@ const Dashboard = () => {
         return (
             
             signOut({
-                callbackUrl:'http://localhost:3000/',
+                callbackUrl:'https://gitcon.herokuapp.com/',
             })
         )
     }

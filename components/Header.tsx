@@ -10,7 +10,7 @@ const Header=()=>{
         return (
             signIn('github', {
                 prompt:'select_account',
-                callbackUrl:'http://localhost:3000/dashboard',
+                callbackUrl:'https://gitcon.herokuapp.com/dashboard',
             })
         )
     }
